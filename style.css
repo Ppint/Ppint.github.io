@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Mitr' , sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-title{
+    font-size: 4rem;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+/* hero style*/
+#hero{
+    background-color: #FE4A49;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+#hero .hero{
+    max-width: 1200px;
+    margin : 0 auto;
+    padding: 0 50px;
+    justify-content: flex-start;
+}
+#hero::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top : 0;
+    height: 100%;
+    width: 100%;
+    z-index : -1
+}
+#hero h1{
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color : white
+}
+#hero .cta{
+    display: inline-block;
+    padding: 5px 15px;
+    color: white;
+    background-color: transparent;
+    border: 3px solid #FED766;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 10px;
+    transition : .3s ease;
+    transition-property: background-color,color;
+}
+#hero .cta:hover{
+    color : white;
+    background-color: #FED766;
+}
+/* end hero style*/
+
+/* start aboutme style*/
+#aboutme{
+    background-color: #2AB7CA;
+}
+#aboutme .aboutme{
+    flex-direction: column;
+    text-align:left;
+    max-width:  1500px;
+    margin: 0 auto;
+    padding : 100px 0;
+}
+
+#aboutme .section-title{
+    font-size: 4rem;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+#aboutme .aboutme-bottom{
+    display : flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#aboutme .aboutme-item{
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin : 10px 5%;
+}
+
+#aboutme .aboutme-bottom .portrait img{
+    height: 300px;
+    width: auto;
+    border-radius: 360px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+#aboutme .aboutme-text{
+    font-size: 2rem;
+    color: white;
+}
+
+
+/* end about me style*/
+
+/* start history*/
+
+#history{
+    background-color: #FED766;
+}
+
+#history .history{
+    flex-direction: column;
+    text-align:left;
+    max-width:  900px;
+    margin: 0 auto;
+    padding : 100px 0;
+}
+
+
+#history .history-item{
+    display: ;
+}
+/* end history */
