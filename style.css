@@ -97,7 +97,7 @@ a {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0);
-	color: palevioletred;
+	color: #ffc1cc ;
 	font-size: 6rem;
 	letter-spacing: 50px;
 	z-index: -1;
