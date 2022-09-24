@@ -40,7 +40,7 @@ a {
     opacity: 0;
     transform: translateX(-100%);
     filter: blur(5px);
-    transition: all 3s;
+    transition: all 1s;
 }
 
 .show{
@@ -49,15 +49,11 @@ a {
     filter: blur(0);
 }
 
-.d1{transition-delay:1s}
-.d2{transition-delay:2s}
-.d3{transition-delay:3s}
-.d4{transition-delay:4s}
-.d5{transition-delay:5s}
-.d6{transition-delay:6s}
-.d7{transition-delay:7s}
-.d8{transition-delay:8s}
-.d9{transition-delay:9s}
+.d1{transition-delay:.5s}
+.d2{transition-delay:1s}
+.d3{transition-delay:1.5s}
+.d4{transition-delay:2s}
+.d5{transition-delay:2.5s}
 
 /* Header section */
 #header {
@@ -302,7 +298,7 @@ a {
 #history .history{
     flex-direction: column;
     text-align:center;
-    max-width:  900px;
+    max-width:  1500px;
     margin: 0 auto;
     padding : 100px 0;
 }
@@ -381,7 +377,7 @@ a {
 #certi img{
     width: 350px;
     height: auto;
-    margin-bottom :30px;
+    margin-bottom : 30px;
 }
 
 #certi h1{
