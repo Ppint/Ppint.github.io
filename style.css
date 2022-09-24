@@ -35,6 +35,30 @@ a {
     letter-spacing: 0.2px;
     text-align: center;
 }
+
+.hidden{
+    opacity: 0;
+    transform: translateX(-100%);
+    filter: blur(5px);
+    transition: all 3s;
+}
+
+.show{
+    opacity: 1;
+    transform: translateX(0%);
+    filter: blur(0);
+}
+
+.d1{transition-delay:1s}
+.d2{transition-delay:2s}
+.d3{transition-delay:3s}
+.d4{transition-delay:4s}
+.d5{transition-delay:5s}
+.d6{transition-delay:6s}
+.d7{transition-delay:7s}
+.d8{transition-delay:8s}
+.d9{transition-delay:9s}
+
 /* Header section */
 #header {
 	position: fixed;
@@ -267,7 +291,6 @@ a {
     color: white;
 }
 
-
 /* end about me style*/
 
 /* start history*/
@@ -428,17 +451,17 @@ a {
 
 @media only screen and (min-width: 768px) {
     html{
-        font-size: 20px;
+        font-size: 12.5px;
         scroll-behavior: smooth;
     }
 
     #certi img{
-        width : 700px;
+        width : 350px;
         height: auto;
     }
 
     #aboutme .aboutme-bottom .portrait img{
-        width: 600px;
+        width: 300px;
         height: auto;
     }
 }
