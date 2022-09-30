@@ -381,6 +381,11 @@ a {
     margin-bottom : 30px;
 }
 
+#certi .toefl{
+    width: 350px;
+    height: auto;
+}
+
 #certi h1{
     color: white;
 }
@@ -395,6 +400,12 @@ a {
 
 #certi .show-more{
     display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#certi .show-less{
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -424,6 +435,11 @@ a {
     display:flex;
 }
 
+#certi a{
+    text-decoration: none;
+    color: white;
+
+}
 /* activity */
 
 #activity {
@@ -538,9 +554,14 @@ a {
         height: 300px;
     }
 
-    /*#certi .certi-item:nth-last-child(1){
+    #certi .toefl{
+        width: 450px;
+        height: auto;
+    }
+
+    #certi .certi-item:nth-last-child(1){
         grid-column: span 2;
-    }*/
+    }
     
     #certi .certi-bottom{
         grid-template-columns: 1fr 1fr;
