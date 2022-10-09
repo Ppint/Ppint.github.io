@@ -471,6 +471,8 @@ a {
     height: 250px;
     margin-bottom : 30px;
 }
+
+
 /* contact */
 #contact {
     background-color: #2AB7CA;
@@ -572,6 +574,9 @@ a {
         height: auto;
     }
 
+    #activity .activity-item:nth-last-child(1){
+        grid-column : span 2;
+    }
     #activity .activity-bottom{
         grid-template-columns: 1fr 1fr;
     }
