@@ -291,6 +291,12 @@ a {
 #aboutme .aboutme-text{
     font-size: 2rem;
     color: black;
+
+}
+
+#aboutme p{
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 /* end about me style*/
@@ -566,10 +572,6 @@ a {
         height: auto;
     }
 
-    #certi .certi-item:nth-last-child(1){
-        grid-column: span 2;
-    }
-    
     #certi .certi-bottom{
         grid-template-columns: 1fr 1fr;
     }
