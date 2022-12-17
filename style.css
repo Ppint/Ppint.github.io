@@ -11,6 +11,7 @@ html{
     font-family: 'Mitr' , sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 body {
     overflow-x: hidden;
@@ -56,6 +57,36 @@ a {
 .d3{transition-delay:1.5s}
 .d4{transition-delay:2s}
 .d5{transition-delay:2.5s}
+
+.preloader{
+    z-index: 10000;
+    background: #FAEDCD;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    transition: all 3s;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preloader::after{
+    content: "";
+    width: 75px;
+    height: 75px;
+    border:15px solid #CCD5AE;
+    border-top-color: #AABA78;
+    border-radius: 50%;
+    animation: loadingg 0.75s ease infinite;
+}
+@keyframes loadingg {
+    from {transform: rotate(0turn);}
+    to {transform: rotate(1turn);}
+}
+.afterload{
+    background: transparent;
+    transform: translateY(-100%);
+}
 
 /* Header section */
 #header {
@@ -569,7 +600,7 @@ a {
 
     #certi .toefl{
         width: 450px;
-        height: auto;
+        height: 700px;
     }
 
     #certi .certi-bottom{
@@ -625,3 +656,4 @@ a {
 	}
 }
 /* End  Media Query For Desktop */
+
